@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Poppins, sans-serif;
+    box-sizing: border-box;
+}
+
+nav a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+nav {
+    background-color: #2E2E2E;
+    display: flex;
+    justify-content: center;
+    column-gap: 32px;
+    height: 40px;
+    align-items: center;
+}
+
+body {
+    background-color: #1D1D1D;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+header {
+    align-self: center;
+    text-align: center;
+    background-image: url(1.png);
+    filter: grayscale(100%);
+    background-size: cover;
+    height: 360px;
+    width: 100%;
+    max-width: min(100% - 100px, 768px);
+    border-radius: 10px;
+    border: 5px solid white;
+    /* center all elems */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 50px;
+    padding: 8px;
+}
+
+
+
+header button {
+    background-color: white;
+    border-radius: 5px;
+    border: 0;
+    padding: 6px 12px;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 15px;
+
+}
+
+main {
+    max-width: min(100% - 100px, 768px);
+    align-self: center;
+}
+
+main > .about {
+    display: flex;
+    column-gap: 32px;
+    text-align: justify;
+    margin-bottom: 50px;
+}
+
+main .about img {
+    filter: grayscale(100%);
+    width: 250px;
+    border-radius: 10px;
+    border: 5px solid white;
+    
+}
+
+main .service img {
+    width: 200px;
+}
+
+.service {
+    column-gap: 32px;
+    display: flex;
+}
+
+.service h4 {
+    margin-top: 20px;
+    
+}
+
+.center {
+    text-align: center;
+    margin-top: 20px;
+}
+
+footer {
+    background-color: #EBDDC8;
+    color: black;
+    width: 100%;
+    text-align: left;
+    padding: 32px 120px;
+    margin-top: 100px;
+    
+}
+
+footer h4 {
+    padding: 5px;
+    font-weight: lighter;
+}
+
+.sign {
+    font-weight: 600;
+}
+
+.sub {
+    border: transparent;
+    border-radius: 5px;
+    margin-left: 600px;
+}
+
+footer .icon img {
+    width: 32px;
+    height: 32px;
+    margin: 5px;
+    margin-top: 20px;
+
+
+}
+
+footer .copyright {
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+
+.email {
+    background-color: transparent;
+    margin-left: 600px;
+    padding: 5px;
+    padding-left: 30px;
+    border-width: 0.1px;
+    margin-bottom: 10px;
+}
+
+input[type="text"] :focus{
+    text-align: left;
+}
+
+footer button{
+    margin-left: 500px;
+    padding: 10px;
+    padding-left: 30px;
+    border-radius: 5px;
+    border: 0;
+    padding: 6px 18px;
+    font-size: 16px;
+    margin-top: 10px;
+    align-items: center;
+    justify-content: center;
+
+}
