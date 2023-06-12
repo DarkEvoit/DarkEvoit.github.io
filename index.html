@@ -10,12 +10,12 @@
 
 <body>
     <nav>
-        <a href="url">Home</a>
-        <a href="url">About</a>
-        <a href="url">Service</a>
-        <a href="url">Contact</a>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#service">Service</a>
+        <a href="#contact">Contact</a>
     </nav>
-    <header>
+    <header id="home">
         <h1>Welcome!</h1>
         <h2>I'm Nicky Hervyan</h2>
         <h3>I make Videography and Media Creation</h3>
@@ -23,7 +23,7 @@
     </header>
     <main>
         <div class="about">
-            <img src="2.png" alt="">
+            <img src="2.png" id="about" alt="">
             <div>
                 <h3>About Me</h3>
                 <p>Nicky Hervyan is a Videographer and Photographer from Indonesia. He discovered his passion for
@@ -38,7 +38,7 @@
         </div>
         <div class="service">
             <div>
-                <img src="3.png" alt="">
+                <img src="3.png" id="service" alt="">
                 <h4>SERVICE 1</h4>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Faucibus vitae amet aliquet diam.</p>
                 <p class="center">FROM $100 - $150</p>
@@ -59,19 +59,40 @@
         </div>
     </main>
     <footer>
-        <h4><span class="sign"> SIGN UP TO THE NEWSLETTER</span></h4>
-        <h4>Stay tune to our latest services and projects. </h4>
-        <div class="icon">
-            <img src="email.png" alt="">
-            <img src="inst.png" alt="">
-            <img src="dribble.png" alt="">
-            <img src="linkedin.png" alt="">
+        <div class="a">
+            <div>
+                SIGN UP TO THE NEWSLETTER <br><span>Stay tune to our latest services and projects.</span></br>
+            </div>
+            
+            <div>
+                <form>
+                    <input type="text" class="email" placeholder="Email address"><br>
+                    <button class="sub">Subscribe</button>
+                 </form>
+
+            </div>
         </div>
-        <form>
-            <input type="text" class="email" placeholder="Email address"><br>
-            <button class="sub">Subscribe</button>
-        </form>
-       
+        <div class="icon">
+            <a>
+            <a href="https://www.gmail.com/">
+                <img src="email.png" alt="">
+            </a>
+                <a>
+                <a href="https://www.instagram.com/">
+                    <img src="inst.png" alt="">
+                </a>
+                    <a>
+                    <a href="https://dribbble.com/">
+                        <img src="dribble.png" alt="">
+                    </a>
+                        <a>
+                        <a href="https://www.linkedin.com/">
+                            <img src="linkedin.png" alt="">
+                        </a>
+                        
+                        
+        </div>
+   
         <div class="copyright">
             <h5>COPYRIGHT@2023 | NICKY HERVYAN</h5>
     </footer>

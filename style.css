@@ -26,7 +26,6 @@ body {
     color: #FFFFFF;
     display: flex;
     flex-direction: column;
-    
 }
 
 header {
@@ -72,6 +71,7 @@ main > .about {
     column-gap: 32px;
     text-align: justify;
     margin-bottom: 50px;
+    line-height: 1.8;
 }
 
 main .about img {
@@ -79,21 +79,22 @@ main .about img {
     width: 250px;
     border-radius: 10px;
     border: 5px solid white;
-    
+   
 }
 
 main .service img {
     width: 200px;
+    
 }
 
 .service {
     column-gap: 32px;
     display: flex;
+ 
 }
 
 .service h4 {
     margin-top: 20px;
-    
 }
 
 .center {
@@ -107,8 +108,7 @@ footer {
     width: 100%;
     text-align: left;
     padding: 32px 120px;
-    margin-top: 100px;
-    
+    margin-top: 100px;  
 }
 
 footer h4 {
@@ -116,54 +116,56 @@ footer h4 {
     font-weight: lighter;
 }
 
-.sign {
-    font-weight: 600;
-}
-
-.sub {
-    border: transparent;
-    border-radius: 5px;
-    margin-left: 600px;
-}
-
 footer .icon img {
     width: 32px;
     height: 32px;
     margin: 5px;
     margin-top: 20px;
-
-
 }
 
 footer .copyright {
     text-align: center;
-    letter-spacing: 1px;
+    letter-spacing: 1.5px;
+    margin-top: 20px;
+    
 }
 
 
 .email {
     background-color: transparent;
-    margin-left: 600px;
+    margin-left: 320px;
     padding: 5px;
-    padding-left: 30px;
+    padding-left: 10px;
     border-width: 0.1px;
     margin-bottom: 10px;
+    border-radius: 2px;
+  
 }
 
-input[type="text"] :focus{
-    text-align: left;
-}
 
 footer button{
-    margin-left: 500px;
-    padding: 10px;
-    padding-left: 30px;
+    margin-left: 320px;
     border-radius: 5px;
     border: 0;
     padding: 6px 18px;
     font-size: 16px;
     margin-top: 10px;
-    align-items: center;
-    justify-content: center;
-
 }
+
+.a {
+    display: flex;
+    font-weight: 600;
+    padding: 5px;
+    margin-bottom: -1em !important;
+}
+
+span {
+    font-weight: 200;
+   
+}
+
+a { text-decoration: none; }
+a:visited { text-decoration: none; }
+a:hover { text-decoration: none; }
+a:focus { text-decoration: none; }
+a:hover, a:active { text-decoration: none; }
