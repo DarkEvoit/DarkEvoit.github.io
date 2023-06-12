@@ -114,12 +114,16 @@ footer {
 footer h4 {
     padding: 5px;
     font-weight: lighter;
+    
 }
 
 footer .icon img {
     width: 32px;
     height: 32px;
     margin: 5px;
+
+   
+
 }
 
 footer .copyright {
@@ -160,7 +164,7 @@ footer button{
 
 span {
     font-weight: 200;
-   
+    display: flex
 }
 
 a { text-decoration: none; }
